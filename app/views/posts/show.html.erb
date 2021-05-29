@@ -1,0 +1,17 @@
+<div class="container">      
+<h3>Add a Post</h3>
+
+    <div>
+      <label>Title</label>
+      <%= @post.title %>
+    </div>
+
+    <div>
+      <label>Description</label>
+      <%= @post.description %>
+    </div>
+
+<div>
+<%= link_to 'Back', { controller: 'posts', action: 'index'} %>
+</div>
+</div>
