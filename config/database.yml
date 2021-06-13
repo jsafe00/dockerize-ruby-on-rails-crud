@@ -87,6 +87,10 @@ test:
 #
 production:
   <<: *default
-  database: posts_production
-  username: posts
-  password: <%= ENV['POSTS_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  database: db/production.sqlite3
+# production:
+#   <<: *default
+#   database: posts_production
+#   username: posts
+#   password: <%= ENV['POSTS_DATABASE_PASSWORD'] %>
