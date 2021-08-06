@@ -14,5 +14,3 @@ CKEDITOR.replace( 'ckeditor', {
         [ 'pbckcode' ]
    ]
 } );
-
-
