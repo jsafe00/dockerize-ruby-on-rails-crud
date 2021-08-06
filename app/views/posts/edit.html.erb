@@ -13,7 +13,9 @@
 
      <div>
             <label>Post Description</label>
-            <%= f.text_area :description, class: 'ckeditor form-control' %>
+            <%= f.text_area :description, :id => 'ckeditor' %>
+
+            <%= javascript_pack_tag 'home'%>
      </div>
 
       </p>
