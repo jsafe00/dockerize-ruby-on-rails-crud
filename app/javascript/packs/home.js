@@ -1,4 +1,4 @@
-var ckeditor_assets = 'https://ckeditor-exp.herokuapp.com/';
+var ckeditor_assets = 'https://simple-rails-crud.herokuapp.com/';
 
 CKEDITOR.plugins.addExternal( 'pbckcode', ckeditor_assets+'ckeditor/plugins/pbckcode/', 'plugin.js' );
 
