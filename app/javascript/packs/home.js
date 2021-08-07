@@ -1,4 +1,4 @@
-var ckeditor_assets = 'http://simple-rails-crud.herokuapp.com/';
+var ckeditor_assets = 'https://simple-rails-crud.herokuapp.com/';
 
 CKEDITOR.plugins.addExternal( 'pbckcode', ckeditor_assets+'ckeditor/plugins/pbckcode/', 'plugin.js' );
 
@@ -14,3 +14,7 @@ CKEDITOR.replace( 'ckeditor', {
         [ 'pbckcode' ]
    ]
 } );
+
+config.pbckcode = {
+    js : "https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/"
+};
