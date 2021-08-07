@@ -14,7 +14,3 @@ CKEDITOR.replace( 'ckeditor', {
         [ 'pbckcode' ]
    ]
 } );
-
-config.pbckcode = {
-    js : "https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/"
-};
