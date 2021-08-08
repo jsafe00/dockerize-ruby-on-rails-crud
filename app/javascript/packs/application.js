@@ -12,4 +12,6 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
+import "bootstrap" 
+
 require("packs/home") 
